@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ReturnOfKing.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D83D4596-D473-4450-B1B4-5A7636721B68}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ReturnOfKing.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ReturnOfKingEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{12CFF1BE-D2AB-476F-A0B4-A9C5A4D73816}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ReturnOfKing">
+			<UniqueIdentifier>{EE50177C-37BD-494F-8C27-30ED39ADDC25}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ReturnOfKing\ReturnOfKing.Build.cs">
+			<Filter>Source\ReturnOfKing</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ReturnOfKing\ReturnOfKing.cpp">
+			<Filter>Source\ReturnOfKing</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ReturnOfKing\ReturnOfKing.h">
+			<Filter>Source\ReturnOfKing</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ReturnOfKing\ReturnOfKingGameMode.cpp">
+			<Filter>Source\ReturnOfKing</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ReturnOfKing\ReturnOfKingGameMode.h">
+			<Filter>Source\ReturnOfKing</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
